@@ -1,6 +1,8 @@
-git clone https://github.com/rootedcyber93/helios-mirror /nmaruf
+git clone https://github.com/rootedcyber93/helios-mirror /maruf
 cd /maruf/helios*
+pwd
 pip install -U -r requirements.txt
 pip3 install --no-cache-dir -r requirements.txt
-pip3 install av --no-binary av
+
+
 bash start.sh
