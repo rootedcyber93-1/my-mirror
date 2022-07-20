@@ -35,7 +35,7 @@ jobs:
          timeout-minutes: 950
          continue-on-error: true
          run: |
-           sudo bash mbot.sh
+           sudo sh mbot.sh
        - name: Loop
          continue-on-error: true
          run: |
