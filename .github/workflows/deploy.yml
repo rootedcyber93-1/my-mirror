@@ -7,7 +7,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-20.04
-    container: theteamultroid/ultroid:main
+    container: FROM arshsisodiya/helioskirepo:public
 
     steps:
        - name: Checkout
@@ -35,7 +35,7 @@ jobs:
          timeout-minutes: 950
          continue-on-error: true
          run: |
-           sudo sh mbot.sh
+           sudo bash mbot.sh
        - name: Loop
          continue-on-error: true
          run: |
