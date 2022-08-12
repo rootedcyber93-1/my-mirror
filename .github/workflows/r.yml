@@ -34,7 +34,7 @@ jobs:
 
        - name: running 6 hours bot
 
-         continue-on-error: true
+         continue-on-error: false
 
          run: |
 
