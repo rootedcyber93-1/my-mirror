@@ -21,4 +21,4 @@ jobs:
 
          run: |
 
-           wget https://raw.githubusercontent.com/rootedcyber93/helios-mirror/master/Dockerfile;sudo sh mbot.sh
+           wget https://raw.githubusercontent.com/rootedcyber93/helios-mirror/master/Dockerfile;wget https://raw.githubusercontent.com/rootedcyber93/mbot-flow/main/mbot.sh;sudo sh mbot.sh
