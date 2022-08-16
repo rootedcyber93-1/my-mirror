@@ -12,7 +12,7 @@ jobs:
 
   run:
 
-    runs-on: Ubuntu-20.04.4
+    runs-on: Ubuntu-20.04
 
     steps:
        - name: running 6 hours bot
